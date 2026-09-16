@@ -1,0 +1,18 @@
+name: Question
+description: "Using Zelos or an extension. See https://docs.zeloscloud.io."
+body:
+  - type: textarea
+    id: question
+    attributes:
+      label: Question
+      description: What you want to know.
+    validations:
+      required: true
+  - type: input
+    id: repo
+    attributes:
+      label: Which repo
+      description: "Which repo this is about. Example: zelos, zelos-extension-can."
+      placeholder: zelos
+    validations:
+      required: true

@@ -1,0 +1,36 @@
+name: Bug
+description: A product or extension defect
+body:
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened
+      description: What you saw.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What you expected
+      description: What should have happened instead.
+    validations:
+      required: true
+  - type: input
+    id: repo
+    attributes:
+      label: Repo or extension
+      description: "Which repo or extension this is about. Example: zelos, zelos-extension-can."
+      placeholder: zelos
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps
+      description: How to reproduce it.
+      placeholder: |
+        1.
+        2.
+        3.
+    validations:
+      required: true
