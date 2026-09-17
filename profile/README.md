@@ -16,7 +16,7 @@ What is in this org:
   DBC, ARXML, KCD and SYM databases, SocketCAN, PCAN, Kvaser and Vector
   interfaces, CAN FD, and remote capture over SSH. Modbus TCP and RTU. UDS over
   ISO-TP. OCPP, V2G, MQTT, HTTP.
-- **cookiecutter-zelos-extension** is the template if you want to write your own.
+- **zelos-extension-templates** is the template if you want to write your own.
 
 Docs: https://docs.zeloscloud.io
 Site: https://zeloscloud.io
